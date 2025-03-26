@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_aaaf6db20dd18ac108ceccaf47dfa024 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_aaaf6db20dd18ac108ceccaf47dfa024" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_aaaf6db20dd18ac108ceccaf47dfa024 = L.map(
+                "map_aaaf6db20dd18ac108ceccaf47dfa024",
+                {
+                    center: [8.5705, 8.3088],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1547f920ab89c13fe3ea6197c812a5b9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_aaaf6db20dd18ac108ceccaf47dfa024);
+        
+    
+            var marker_71d83dc54cdd1c4665331192bcb85e76 = L.marker(
+                [8.5705, 8.3088],
+                {}
+            ).addTo(map_aaaf6db20dd18ac108ceccaf47dfa024);
+        
+    
+            var icon_b3fdd7122aba00a1578cad8e962dd8fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_71d83dc54cdd1c4665331192bcb85e76.setIcon(icon_b3fdd7122aba00a1578cad8e962dd8fa);
+        
+    
+        var popup_38f0b00e7edddc536e52bc5428020c78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85d73bf5c5e97417ee5bfbee8f8939fa = $(`<div id="html_85d73bf5c5e97417ee5bfbee8f8939fa" style="width: 100.0%; height: 100.0%;">Nasarawa State (Targeted Population: 1,400,000)</div>`)[0];
+            popup_38f0b00e7edddc536e52bc5428020c78.setContent(html_85d73bf5c5e97417ee5bfbee8f8939fa);
+        
+
+        marker_71d83dc54cdd1c4665331192bcb85e76.bindPopup(popup_38f0b00e7edddc536e52bc5428020c78)
+        ;
+
+        
+    
+    
+            var circle_69930018059cdc947503203058af7883 = L.circle(
+                [8.5347, 7.7062],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19312.079999999998, "stroke": true, "weight": 3}
+            ).addTo(map_aaaf6db20dd18ac108ceccaf47dfa024);
+        
+    
+        var popup_0fe52c5a2492e7127e6aa48008049d61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a6ca47e93bb9ce0eb0eb6debdc09418 = $(`<div id="html_8a6ca47e93bb9ce0eb0eb6debdc09418" style="width: 100.0%; height: 100.0%;">Exclusion Zone 1 (8.5347, 7.7062)</div>`)[0];
+            popup_0fe52c5a2492e7127e6aa48008049d61.setContent(html_8a6ca47e93bb9ce0eb0eb6debdc09418);
+        
+
+        circle_69930018059cdc947503203058af7883.bindPopup(popup_0fe52c5a2492e7127e6aa48008049d61)
+        ;
+
+        
+    
+    
+            var circle_5a6cd3d6fedc992f2898f457855e36f2 = L.circle(
+                [8.9174, 8.4114],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19312.079999999998, "stroke": true, "weight": 3}
+            ).addTo(map_aaaf6db20dd18ac108ceccaf47dfa024);
+        
+    
+        var popup_53dc85a712ceb5c1b11988112e904768 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_576966ea3fd1d85aeab272a621f3ac32 = $(`<div id="html_576966ea3fd1d85aeab272a621f3ac32" style="width: 100.0%; height: 100.0%;">Exclusion Zone 2 (8.9174, 8.4114)</div>`)[0];
+            popup_53dc85a712ceb5c1b11988112e904768.setContent(html_576966ea3fd1d85aeab272a621f3ac32);
+        
+
+        circle_5a6cd3d6fedc992f2898f457855e36f2.bindPopup(popup_53dc85a712ceb5c1b11988112e904768)
+        ;
+
+        
+    
+</script>
+</html>
